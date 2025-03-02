@@ -19,8 +19,9 @@
   transform: translateX(-100vw);
 }
 
-.menu-item {
-  color: #eeebeb;
+.mobile-menu-item {
+  color: #eee6e6;
+  text-decoration: none;
 }
 
 .mobile-menu-container {
