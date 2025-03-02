@@ -8,27 +8,26 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
       onClick={toggleMenu}
     >
       <div className="mobile-menu-container">
-        {/* <img src="logo" alt="logo" className="logo" /> */}
         <p className="logo">Yuvaraj</p>
 
         <ul>
           <li>
-            <a href="#home" className="menu-item">
+            <a href="#home" className="mobile-menu-item">
               Home
             </a>
           </li>
           <li>
-            <a href="#skills" className="menu-item">
+            <a href="#skills" className="mobile-menu-item">
               Skills
             </a>
           </li>
           <li>
-            <a href="#experience" className="menu-item">
+            <a href="#experience" className="mobile-menu-item">
               Work Experience
             </a>
           </li>
           <li>
-            <a href="#contact" className="menu-item">
+            <a href="#contact" className="mobile-menu-item">
               Contact me
             </a>
           </li>
